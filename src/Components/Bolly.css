@@ -1,0 +1,1853 @@
+.main-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  /* border: 2px solid maroon; */
+  gap: 50px;
+}
+
+.cont1 {
+  /* display: flex; */
+  flex-direction: column;
+  height: 100%;
+  /* width: 60%; */
+  gap: 10px;
+}
+
+.cards {
+  position: relative;
+  left: 10px;
+  margin-bottom: 1%;
+  height: 200px;
+  width: 590px;
+
+  border-bottom: 5px solid red;
+
+  border-radius: 10px;
+
+  background-color: aliceblue;
+}
+
+.cards img {
+  position: absolute;
+  padding: 10px;
+
+  height: 180px;
+  width: 270px;
+}
+
+.cards h2 {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  font-size: 25px;
+  top: 5px;
+  right: 15px;
+  overflow: hidden;
+  line-break: auto;
+  line-height: 1;
+}
+
+.cards p {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  font-size: 10px;
+  right: 15px;
+  bottom: 0px;
+  overflow: hidden;
+  line-break: auto;
+}
+
+.cont2 {
+  width: 380px;
+  height: 100%;
+}
+
+.remainCards {
+  height: 200px;
+  width: 380px;
+  display: flex;
+  position: relative;
+  border-bottom: 5px solid rgb(0, 255, 234);
+  border-top: 5px solid rgb(238, 255, 0);
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin-bottom: 1%;
+}
+
+.remainCards img {
+  position: absolute;
+  top: 5px;
+  height: 105px;
+  width: 162px;
+  padding: 5px;
+}
+
+.remainCards h2 {
+  position: absolute;
+  top: 7px;
+  width: 200px;
+  height: 100px;
+  font-size: 25px;
+  right: 15px;
+  overflow: hidden;
+  line-break: auto;
+  line-height: 1;
+}
+
+.remainCards p {
+  position: absolute;
+  width: 300px;
+  height: 42px;
+  font-size: 10px;
+  right: 70px;
+  bottom: 30px;
+  overflow: hidden;
+}
+
+.cont3 {
+  position: absolute;
+  height: 100%;
+  width: 380px;
+  border: 2px solid fuchsia;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  color: black;
+}
+
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.dynamic {
+  margin: 10px auto;
+  /* height:600px; */
+  height: 100%;
+  width: 460px;
+  border: 2px solid gray;
+  background-color: aliceblue;
+  border-radius: 40px;
+}
+
+.dynamic img {
+  margin-left: 30px;
+  margin-top: 20px;
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.dynamic h2 {
+  margin: 10px 20px 0 30px;
+}
+
+.dynamic p {
+  margin: 10px 45px 0 30px;
+}
+
+.logocard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -180px;
+  gap: 10px;
+}
+
+.logocard img {
+  height: 100px;
+  width: 100px;
+}
+
+.icons2 {
+  margin-left: -60px;
+  margin-top: -25px;
+}
+
+.icons {
+  height: 40px;
+  width: 50px;
+}
+
+.sticky-claps {
+  position: absolute;
+  top: 420px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 2060px) {
+ 
+  .topCont {
+    margin: 50px 50px;
+    height: 400px;
+    width: 1530px;
+  }
+
+  .topleft {
+    height: 400px;
+    width: 1100px;
+  }
+
+  .topRight1 {
+    width: 380px;
+    height: 200px;
+  }
+
+  .topRight1 img {
+    width: 660px;
+    height: 200px;
+  }
+
+  .topRight2 img {
+    width: 660px;
+    height: 185px;
+  }
+
+  .navbar2 {
+    height: 60px;
+  }
+
+  .cards {
+    width: 980px;
+    height: 300px;
+    
+  }
+  .cont1{
+    margin-left: 1%;
+  }
+
+  .cards img {
+    width: 500px;
+    height: 295px;
+  }
+
+  .cards h2 {
+    width: 465px;
+    height: 145px;
+    font-size: 35px;
+  }
+
+  .cards p {
+    width: 465px;
+    height: 170px;
+    font-size: 25px;
+  }
+
+  .remainCards {
+    height: 260px;
+    width: 700px;
+  }
+
+  .remainCards img {
+    height: 235px;
+    width: 380px;
+  }
+
+  .remainCards h2 {
+    width: 300px;
+    height: 120px;
+    font-size: 30px;
+  }
+
+  .remainCards p {
+    width: 240px;
+    height: 89px;
+    font-size: 18px;
+  }
+
+  .cont2 {
+    margin-left: 10%;
+  }
+
+  .latestAtricles {
+    flex-direction: column;
+  }
+
+  .ArticleCard1 {
+    position: relative;
+    height: 300px;
+    width: 820px;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-bottom: 3%;
+    overflow: hidden;
+    background-color: cadetblue;
+   
+  }
+
+  .ArticleCard1 img {
+    height: 290px;
+    width: 510px;
+    padding: 1%;
+    border-radius: 5%;
+  }
+
+  .ArticleCard1 h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 310px;
+    font-size: 25px;
+    padding: 1%;
+  }
+
+  .ArticleCard1 p {
+    position: absolute;
+    bottom: 10%;
+    font-size: 20px;
+    right: 0;
+    width: 310px;
+    padding: 1%;
+  }
+
+  .topPsts {
+    position: absolute;
+    top: 1000px;
+    left: 1150px;
+    height: 500px;
+    width: 550px;
+  }
+
+  .topPostCard {
+    position: relative;
+    height: 250px;
+    width: 710px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 4%;
+    background-color: tan;
+    margin-left: 5%;
+  }
+
+  .topPostCard img {
+    height: 240px;
+    width: 445px;
+    padding: 2%;
+    border-radius: 20px;
+  }
+
+  .topPostCard h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 271px;
+    padding: 1%;
+    font-size: 20px;
+  }
+
+  .topPostCard p {
+    position: absolute;
+    top: 91px;
+    right: 6px;
+    width: 260px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1800px) {
+ 
+  .topCont {
+    margin: 20px 30px;
+    width: 1400px;
+  }
+  .topleft{
+    width: 1000px;
+  }
+.topRight1 img{
+  width:700px ;
+}
+.topRight2 img{
+  width: 700px;
+}
+  .cont2 {
+    margin-left: 12%;
+  }
+
+  .remainCards {
+    width: 670px;
+    height: 230px;
+    margin-bottom: 5%;
+  }
+
+  .remainCards img {
+    height: 210px;
+    width: 300px;
+  }
+
+  .remainCards h2 {
+    width: 350px;
+  }
+
+  .remainCards p {
+    width: 290px;
+    font-size: 15px;
+    height: 80px;
+    bottom: 12px;
+  }
+
+  .cards {
+    width: 800px;
+    height: 250px;
+    margin-bottom: 3%;
+    margin-left: 1%;
+  }
+
+  .cards img {
+    height: 245px;
+    width: 430px;
+  }
+
+  .cards h2 {
+    width: 355px;
+    height: 110px;
+    font-size: 35px;
+  }
+
+  .cards p {
+    width: 355px;
+    height: 128px;
+    font-size: 15px;
+  }
+
+  .ArticleCard1 {
+    position: relative;
+    height: 300px;
+    width: 820px;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-bottom: 3%;
+    overflow: hidden;
+    background-color: cadetblue;
+   
+  }
+
+  .ArticleCard1 img {
+    height: 280px;
+    width: 460px;
+    padding: 1%;
+    border-radius: 5%;
+  }
+
+  .ArticleCard1 h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 355px;
+    font-size: 30px;
+    padding: 1%;
+  }
+
+  .ArticleCard1 p {
+    position: absolute;
+    bottom: 10%;
+    font-size: 20px;
+    right: 0;
+    width: 360px;
+    padding: 1%;
+  }
+
+  .topPsts {
+    position: absolute;
+    top: 950px;
+    left: 1050px;
+    height: 500px;
+    width: 550px;
+  }
+
+  .topPostCard {
+    position: relative;
+    height: 250px;
+    width: 650px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 4%;
+    background-color: tan;
+
+  }
+
+  .topPostCard img {
+    height: 240px;
+    width: 400px;
+    padding: 2%;
+    border-radius: 20px;
+  }
+
+  .topPostCard h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 260px;
+    padding: 1%;
+    font-size: 20px;
+  }
+
+  .topPostCard p {
+    position: absolute;
+    top: 90px;
+    right: 6px;
+    width: 245px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1600px) {
+   
+ .topleft{
+  width: 800px;
+ }
+
+  .topCont {
+    
+    width: 1200px;
+  }
+  .topRight1 img{
+    width: 650px;
+  }
+  .topRight2 img{
+    width: 650px;
+  }
+  .topCont {
+    margin: 15px 50px;
+  }
+
+  .cards {
+    width: 700px;
+
+    
+  }
+
+  .cards img {
+    width: 385px;
+    height: 245px;
+  }
+
+  .cards h2 {
+    width: 305px;
+  }
+
+  .cards p {
+    width: 305px;
+  }
+
+  .cont2 {
+    margin-left: 8%;
+  }
+
+  .remainCards {
+    width: 600px;
+    margin-left: 5%;
+  }
+
+  .remainCards img {
+    width: 325px;
+    height: 210px;
+  }
+
+  .remainCards h2 {
+    width: 255px;
+    height: 95px;
+  }
+
+  .remainCards p {
+    width: 200px;
+  }
+
+  .latestAtricles {
+    margin: 10px 30px;
+  }
+
+  .ArticleCard1 {
+    position: relative;
+    height: 300px;
+    width: 720px;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-bottom: 3%;
+    overflow: hidden;
+    background-color: cadetblue;
+    margin-left: 0%;
+  }
+
+  .ArticleCard1 img {
+    height: 280px;
+    width: 400px;
+    padding: 1%;
+    border-radius: 5%;
+  }
+
+  .ArticleCard1 h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 310px;
+    font-size: 25px;
+    padding: 1%;
+  }
+
+  .ArticleCard1 p {
+    position: absolute;
+    bottom: 10%;
+    font-size: 20px;
+    right: 0;
+    width: 310px;
+    padding: 1%;
+  }
+
+  .topPsts {
+    position: absolute;
+    top: 960px;
+    left: 950px;
+    height: 500px;
+    width: 550px;
+  }
+
+  .topPostCard {
+    position: relative;
+    height: 250px;
+    width: 600px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 4%;
+    background-color: tan;
+    margin-left: -2%;
+  }
+
+  .topPostCard img {
+    height: 250px;
+    width: 335px;
+    padding: 2%;
+    border-radius: 20px;
+  }
+
+  .topPostCard h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 270px;
+    padding: 1%;
+    font-size: 20px;
+  }
+
+  .topPostCard p {
+    position: absolute;
+    top: 124px;
+    right: 6px;
+    width: 260px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .topCont {
+    margin: 15px 30px;
+  }
+
+  .topRight1 img{
+    width: 610px;
+  }
+  .topRight2 img{
+    width: 610px;
+  }
+  .cards {
+    width: 650px;
+  }
+
+  .cards img {
+    width: 338px;
+    height: 245px;
+  }
+
+  .cards h2 {
+    width: 305px;
+  }
+
+  .cards p {
+    width: 300px;
+  }
+
+  .remainCards {
+    width: 560px;
+  }
+
+  .remainCards h2 {
+    width: 265px;
+  }
+
+  .remainCards img {
+    width: 270px;
+    height: 210px;
+  }
+
+  .remainCards p {
+    width: 210px;
+    height: 82px;
+  }
+
+ 
+
+  .cont2 {
+    margin-left: 10%;
+  }
+
+  .latestAtricles {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .ArticleCard1 {
+    position: relative;
+    height: 300px;
+    width: 720px;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-bottom: 3%;
+    overflow: hidden;
+    background-color: cadetblue;
+ 
+  }
+
+  .topPsts {
+    position: absolute;
+    top: 950px;
+    left: 890px;
+    height: 500px;
+    width: 550px;
+  }
+
+  .topPostCard {
+    position: relative;
+    height: 250px;
+    width: 580px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 4%;
+    background-color: tan;
+   
+  }
+
+  .topPostCard img {
+    height: 240px;
+    width: 300px;
+    padding: 2%;
+    border-radius: 20px;
+  }
+
+  .topPostCard h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 285px;
+    padding: 1%;
+    font-size: 20px;
+  }
+
+  .topPostCard p {
+    position: absolute;
+    top: 90px;
+    right: 6px;
+    width: 275px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1440px) {
+
+  .cont2{
+    margin-left: 2%;
+  }
+  
+ .topleft{
+  width: 800px;
+ }
+
+  .topCont {
+    margin: 0px 50px;
+    width: 1200px;
+  }
+  .topRight1 img{
+    width: 500px;
+  }
+  .topRight2 img{
+    width: 500px;
+  }
+
+  
+
+  .cards {
+    width: 700px;
+    margin-bottom: 2%;
+   
+  }
+
+  .cards h2 {
+    width: 300px;
+  }
+
+  .cards img {
+    width: 385px;
+    height: 245px;
+  }
+
+  .cards p {
+    width: 300px;
+  }
+
+ 
+
+  .remainCards {
+    width: 620px;
+    margin-bottom: 3%;
+ 
+  }
+
+  .remainCards img {
+    width: 300px;
+    height: 205px;
+  }
+
+  .remainCards h2 {
+    width: 300px;
+  }
+
+  .remainCards p {
+    width: 243px;
+    height: 66px;
+    font-size: 13px;
+    right: 69px;
+    bottom: 12px;
+    overflow: hidden;
+  }
+
+  .latestAtricles {
+    flex-direction: column;
+  }
+
+  .ArticleCard1 {
+    position: relative;
+    height: 300px;
+    width: 720px;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-bottom: 3%;
+    overflow: hidden;
+    background-color: cadetblue;
+ 
+  }
+
+  .ArticleCard1 img {
+    height: 280px;
+    width: 400px;
+    padding: 1%;
+    border-radius: 5%;
+  }
+
+  .ArticleCard1 h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 310px;
+    font-size: 25px;
+    padding: 1%;
+  }
+
+  .ArticleCard1 p {
+    position: absolute;
+    bottom: 10%;
+    font-size: 20px;
+    right: 0;
+    width: 310px;
+    padding: 1%;
+  }
+
+  .topPsts {
+    position: absolute;
+    top: 920px;
+    left: 890px;
+
+    height: 500px;
+    width: 550px;
+  }
+
+  .TopPostsCont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topPostCard {
+    position: relative;
+    height: 250px;
+    width: 510px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 4%;
+    background-color: tan;
+  }
+
+  .topPostCard img {
+    height: 240px;
+    width: 300px;
+    padding: 2%;
+    border-radius: 20px;
+  }
+
+  .topPostCard h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 215px;
+    padding: 1%;
+    font-size: 20px;
+  }
+
+  .topPostCard p {
+    position: absolute;
+    top: 124px;
+    right: 6px;
+    width: 200px;
+    font-size: 15px;
+  }
+
+  .main-container {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    gap: 10px;
+  }
+
+  .cont1 {
+    flex-direction: column;
+    height: 100%;
+    /* width: 60%; */
+    gap: 10px;
+  
+  }
+
+  .cards {
+    position: relative;
+    left: 0px;
+
+    height: 200px;
+    width: 590px;
+
+    border-bottom: 5px solid red;
+    border-top: 5px solid rgb(7, 182, 252);
+    border-radius: 10px;
+    background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  }
+
+  .cards img {
+    position: absolute;
+    padding: 10px;
+
+    height: 180px;
+    width: 270px;
+  }
+
+  .cards h2 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
+    top: 5px;
+    right: 15px;
+    overflow: hidden;
+    line-break: auto;
+    line-height: 1;
+  }
+
+  .cards p {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    font-size: 10px;
+    right: 15px;
+    bottom: 0px;
+    overflow: hidden;
+    line-break: auto;
+  }
+
+  .cont2 {
+    width: 380px;
+    height: 100%;
+   
+  }
+
+  .remainCards {
+    height: 200px;
+    width: 375px;
+    display: flex;
+    position: relative;
+    border-bottom: 5px solid rgb(0, 255, 234);
+    border-top: 5px solid rgb(238, 255, 0);
+    border-radius: 10px;
+    background-color: aliceblue;
+   margin-left: 0%;
+  }
+
+  .remainCards img {
+    position: absolute;
+    top: 5px;
+    height: 105px;
+    width: 162px;
+    padding: 5px;
+  }
+
+  .remainCards h2 {
+    position: absolute;
+    top: 7px;
+    width: 200px;
+    height: 100px;
+    font-size: 25px;
+    right: 15px;
+    overflow: hidden;
+    line-break: auto;
+    line-height: 1;
+  }
+
+  .remainCards p {
+    position: absolute;
+    width: 300px;
+    height: 42px;
+    font-size: 10px;
+    right: 70px;
+    bottom: 30px;
+    overflow: hidden;
+    line-height: 1.5;
+  }
+
+  .cont3 {
+    position: absolute;
+    height: 100%;
+    width: 380px;
+    border: 2px solid fuchsia;
+  }
+
+  h1 {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: black;
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .dynamic {
+    margin: 10px auto;
+
+    height: 100%;
+    width: 460px;
+    border: 2px solid gray;
+    background-color: aliceblue;
+    border-radius: 40px;
+  }
+
+  .dynamic img {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+  }
+
+  .dynamic h2 {
+    margin: 10px 20px 0 30px;
+  }
+
+  .dynamic p {
+    margin: 10px 45px 0 30px;
+  }
+
+  .nav {
+    background-color: bisque;
+    height: 40px;
+    width: 100%;
+    border: 2px solid;
+    border-radius: 10px;
+  }
+
+  .nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+  }
+
+  .nav ul li {
+    list-style: none;
+    align-items: center;
+  }
+
+  .nav li a {
+    text-decoration: none;
+  }
+
+  .active {
+    color: chocolate;
+    font-size: 15px;
+  }
+
+  .homeMainCont {
+    margin: 10px;
+  }
+
+  .ParentLatest {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card1 {
+    height: 340px;
+    width: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk31lsERvbGAQOLr8FRbw2jmg9DBlzUUcTqQ&usqp=CAU);
+    border-radius: 15px;
+  }
+
+  .card1 img {
+    padding: 10px;
+    height: 180px;
+    width: 293px;
+    border-radius: 20px;
+  }
+
+  .card1 h3 {
+    padding: 10px;
+  }
+
+  .card1 p {
+    padding: 10px;
+  }
+
+  .latestStories {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .latestAtricles {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .topCont {
+    margin: 5px 40px;
+    gap: 10px;
+    display: flex;
+    height: 300px;
+    width: 870px;
+    justify-content: space-between;
+  }
+
+  .topleft {
+    height: 300px;
+    width: 550px;
+    border-radius: 15px;
+
+    background-image: url(../Components/mip.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .topRight1 {
+    width: 250px;
+    height: 200px;
+    margin-left: -20%;
+  }
+
+  .topRight1 img {
+    width: 350px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+
+  .topRight2 {
+    height: 200px;
+    width: 250px;
+    margin-left: -20%;
+  }
+
+  .topRight2 img {
+    height: 133px;
+    width: 350px;
+    border-radius: 15px;
+  }
+
+  .top {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ArticleCard1 {
+    position: relative;
+    height: 300px;
+    width: 530px;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    background-color: bisque;
+    margin-left: 0%;
+  }
+
+  .ArticleCard1 img {
+    height: 280px;
+    width: 220px;
+    padding: 1%;
+    border-radius: 5%;
+  }
+
+  .ArticleCard1 h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 310px;
+    font-size: 25px;
+    padding: 1%;
+  }
+
+  .ArticleCard1 p {
+    position: absolute;
+    bottom: 10%;
+    font-size: 20px;
+    right: 0;
+    width: 310px;
+    padding: 1%;
+  }
+
+  .topPsts {
+    position: absolute;
+    top: 845px;
+    left: 545px;
+
+    height: 500px;
+    width: 550px;
+  }
+
+  .TopPostsCont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topPostCard {
+    position: relative;
+    height: 250px;
+    width: 460px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 4%;
+    background-color: azure;
+    margin-left: 0%;
+  }
+
+  .topPostCard img {
+    height: 240px;
+    width: 250px;
+    padding: 2%;
+    border-radius: 20px;
+  }
+
+  .topPostCard h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 215px;
+    padding: 1%;
+    font-size: 20px;
+  }
+
+  .topPostCard p {
+    position: absolute;
+    top: 124px;
+    right: 6px;
+    width: 200px;
+    font-size: 15px;
+  }
+
+ 
+}
+
+@media (max-width: 768px) {
+  .topRight1{
+    margin-left: 0%;
+  }
+  .topRight2{
+    margin-left: 0%;
+  }
+ 
+  .cont2{
+    margin-left: 1%;
+  }
+  .ArticleCard1 {
+    width: 385px;
+  }
+
+  .ArticleCard1 img {
+    width: 155px;
+  }
+
+  .ArticleCard1 h2 {
+    width: 230px;
+  }
+
+  .ArticleCard1 p {
+    position: absolute;
+    width: 228px;
+    font-size: 18px;
+    bottom: 3%;
+  }
+
+  .topPsts {
+    left: 400px;
+    top: 980px;
+  }
+
+  .topPostCard {
+    width: 360px;
+  }
+
+  .topPostCard img {
+    width: 150px;
+  }
+
+  .topCont {
+    margin: 50px 40px;
+    gap: 10px;
+    display: flex;
+    height: 300px;
+    width: 600px;
+    justify-content: space-between;
+  }
+
+  .card1 {
+    height: 388px;
+    width: 230px;
+    border: 2px solid black;
+    overflow: hidden;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk31lsERvbGAQOLr8FRbw2jmg9DBlzUUcTqQ&usqp=CAU);
+    border-radius: 15px;
+  }
+
+  .card1 img {
+    width: 225px;
+  }
+
+  .card1 h2 {
+    margin-left: 5%;
+  }
+
+  .cards {
+    width: 380px;
+    margin-bottom: 2%;
+  }
+
+  .cards img {
+    height: 185px;
+    width: 200px;
+  }
+
+  .cards h2 {
+    width: 170px;
+    height: 77px;
+  }
+
+  .cards p {
+    width: 170px;
+    font-size: 15px;
+    bottom: 15px;
+  }
+
+  .remainCards {
+    width: 355px;
+    margin-bottom: 2%;
+  }
+
+  .remainCards h2 {
+    width: 180px;
+  }
+
+  .remainCards p {
+    width: 280px;
+    height: 70px;
+    bottom: 5px;
+    font-size: 15px;
+  }
+
+  
+
+  .dynamic {
+    margin: 10px 160px;
+  }
+}
+
+@media (max-width: 425px) {
+  
+  .logocard {
+    margin-left: -70px;
+  }
+
+  .topPsts {
+    display: none;
+  }
+
+  .topCont {
+    flex-direction: column;
+    height: 100px;
+    width: 300px;
+  }
+
+  .topleft {
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
+  }
+
+  .top {
+    height: 100px;
+    width: 300px;
+    margin-left: 20%;
+  }
+
+  .topRight1 {
+    width: 100px;
+    height: 50px;
+  }
+
+  .topRight1 img {
+    width: 200px;
+    height: 80px;
+    margin-top: -40%;
+  }
+
+  .topRight2 {
+    width: 100px;
+    height: 50px;
+  }
+
+  .topRight2 img {
+    width: 200px;
+    height: 70px;
+  }
+
+  .ParentLatest {
+    flex-direction: column;
+  }
+
+  .card1 {
+    height: 275px;
+    width: 250px;
+    margin-left: 20%;
+    margin-bottom: 2%;
+  }
+
+  .card1 img {
+    height: 142px;
+    width: 242px;
+  }
+
+  .card1 h2 {
+    width: 230px;
+    margin-left: 5%;
+    height: 50px;
+    font-size: 17px;
+  }
+
+  .card1 p {
+    margin-top: 5%;
+  }
+
+  .latestStories {
+    flex-direction: column;
+  }
+
+  .latestAtricles {
+    flex-direction: column;
+  }
+
+  .main-container {
+    flex-direction: column;
+  }
+
+  .cards {
+    height: 190px;
+    width: 380px;
+    overflow: hidden;
+    margin-bottom: 5%;
+    left: 10px;
+  }
+
+  .cards img {
+    height: 170px;
+    width: 200px;
+  }
+
+  .cards h2 {
+    width: 170px;
+    height: 100px;
+    font-size: 19px;
+  }
+
+  .cards p {
+    width: 170px;
+    height: 100px;
+    font-size: 12px;
+    top: 106px;
+  }
+
+  
+  .remainCards {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 7%;
+  }
+
+  h1 {
+    text-align: start;
+  }
+
+  .dynamic {
+    width: 355px;
+    margin: 10px 20px;
+  }
+
+  .dynamic img {
+    width: 280px;
+  }
+
+  .ArticleCard1 {
+    height: 275px;
+    width: 250px;
+    margin-left: 22%;
+    margin-bottom: 2%;
+  }
+
+  .ArticleCard1 img {
+    height: 142px;
+    width: 242px;
+  }
+
+  .ArticleCard1 h2 {
+    position: absolute;
+    top: 140px;
+    width: 230px;
+    margin-left: 5%;
+    height: 50px;
+    font-size: 17px;
+  }
+
+  .ArticleCard1 p {
+    position: absolute;
+    top: 215px;
+    left: 15px;
+    font-size: 15px;
+    width: 225px;
+  }
+
+  .icons2 {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .topRight1 img{
+    width: 150px;
+    height: 100px;
+    margin-top: -55%;
+  }
+  .topRight2 img{
+    width: 150px;
+    height: 80px;
+    margin-top: -5%;
+  }
+
+  .top {
+    margin-left: 8%;
+  }
+
+  .card1 {
+    margin-left: 16%;
+  }
+
+  .topCont {
+    margin: 50px 90px;
+  }
+
+  .cards {
+    height: 190px;
+    width: 350px;
+    overflow: hidden;
+  }
+
+  .cards img {
+    height: 170px;
+    width: 200px;
+  }
+
+  .cards h2 {
+    width: 138px;
+    height: 78px;
+    font-size: 19px;
+  }
+
+  .cards p {
+    width: 138px;
+    height: 70px;
+    font-size: 12px;
+    top: 90px;
+  }
+
+  .remainCards {
+    width: 340px;
+    margin-left: 3%;
+  }
+
+  .remainCards h2 {
+    width: 160px;
+    height: 98px;
+  }
+
+  .remainCards p {
+    bottom: 10px;
+    right: 30px;
+    width: 300px;
+    height: 67px;
+    font-size: 12px;
+  }
+
+  h1 {
+    text-align: start;
+  }
+
+  .dynamic {
+    width: 330px;
+  }
+
+  .dynamic img {
+    width: 265px;
+  }
+
+  .ArticleCard1 {
+    margin-left: 18%;
+  }
+}
+
+@media (max-width: 320px) {
+  .topRight1 img{
+    width: 150px;
+    height: 100px;
+    margin-top: -45%;
+  }
+  .topRight2 img{
+    width: 150px;
+    height: 80px;
+    margin-top: -45%;
+  }
+  .top {
+    margin-left:-2%;
+    gap: 60px;
+  }
+
+  .bend2 {
+    margin-left: 50px;
+  }
+
+  .logocard {
+    margin-left: -10px;
+  }
+
+  .card1 {
+    margin-left: 6%;
+    width: 250px;
+    margin-bottom: 5%;
+  }
+
+  .card1 img {
+    height: 155px;
+    width: 242px;
+  }
+
+  .card1 h2 {
+    width: 230px;
+    margin-left: 5%;
+    height: 50px;
+    font-size: 17px;
+  }
+
+  .topCont {
+    margin: 50px 90px;
+  }
+ 
+  .cards {
+    height: 190px;
+    width: 300px;
+    overflow: hidden;
+    margin-left: -1%;
+  }
+
+  .cards img {
+    height: 170px;
+    width: 180px;
+  }
+
+  .cards h2 {
+    width: 110px;
+    height: 78px;
+    font-size: 19px;
+  }
+
+  .cards p {
+    width: 110px;
+    height: 70px;
+    font-size: 12px;
+    top: 90px;
+  }
+
+  .remainCards {
+    width: 290px;
+    margin-left: 0;
+    margin-top: 10%;
+  }
+
+  .remainCards h2 {
+    width: 105px;
+    height: 98px;
+  }
+
+  .remainCards p {
+    bottom: 10px;
+    right: 30px;
+    width: 250px;
+    height: 67px;
+    font-size: 12px;
+  }
+
+  .ParentLatest {
+    flex-direction: column;
+  }
+
+  .latestStories {
+    flex-direction: column;
+  }
+
+  .latestAtricles {
+    flex-direction: column;
+  }
+
+  .main-container {
+    flex-direction: column;
+  }
+
+  .cont2 {
+    margin-left: 5%;
+  }
+
+  .topleft {
+    display: none;
+  }
+
+  h1 {
+    text-align: start;
+  }
+
+  .dynamic {
+    width: 300px;
+  }
+
+  .dynamic img {
+    width: 240px;
+    height: 250px;
+  }
+
+  .navbar2 {
+    width: 319px;
+  }
+
+  .ArticleCard1 {
+    margin-left: 10%;
+    width: 250px;
+  }
+
+  .ArticleCard1 img {
+    height: 155px;
+    width: 242px;
+  }
+
+  .ArticleCard1 h2 {
+    position: absolute;
+    top: 170px;
+    font-size: 15px;
+  }
+
+  .ArticleCard1 p {
+    position: absolute;
+
+    font-size: 15px;
+
+    width: 244px;
+    top: 215px;
+  }
+
+  .icons2 {
+    margin-left: 100px;
+  }
+
+}
+
+/*  */
+.GoBackBtn {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+}
+
+.GoBackBtn button {
+  width: 100px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
